@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Roboto|Roboto+Slab" rel="stylesheet">  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <link href="https://fonts.googleapis.com/css?family=Eater|Fjalla+One|Pacifico|Roboto|Roboto+Slab|Shrikhand" rel="stylesheet"> 
+
+      <link rel="stylesheet" type="text/css" href="index.css">
+  
+  <title>Media Zon| Graphic art design center</title>
+  <link rel="icon" href="image/logo2.png" >
+  <style>
+  
+.col-10
+{width: 20% ;
+float: left; 
+margin: 1% 10px 10px 10px}
+.col-10r
+{width: 20% ;
+float: right;
+margin:  1%}
+.slideshow
+   {padding: 3% 20% 0% 0%; 
+
+}
+.select a img:hover
+{width: 22.5%;}
+ video
+  {width:90%;padding-left: 10%}
+  hr
+  {height: 5px; background-color: black}
+.weare h4
+{padding: 0 0 0 10%;
+font-size: 19px}
+
+
+.footer 
+{
+font-size: 100%;
+color: grey;
+text-decoration: none;
+background-color: black;width:96%;
+text-align:center}
+
+.footer h3
+{padding-top: 2%}
+.copy
+{color: gray;text-align: center; padding-bottom: 2%}
+
+@media screen and (max-width: 200px)
+{.slideshow
+{padding: 7% 0% 0 15%;
+width: 65% 
+  }
+  }
+  @media screen and (max-width:1200px)
+{
+  .weare h4
+  {font-size:90%}
+}
+
+  </style>
+
+</head>
+
+<body style="margin: 0">
+
+
+    <div class="toptop">
+      <div class="topleft">The Graphic Design Center  </div>
+        <div class="topright">Contect: +65 96635996 / +6 0127373019 / 07 5560255 </div>
+    
+
+    </div>
+    <div class="topnav" id="myTopnav">
+    <img src="image/logo.png">
+  <a href="newindex2.html" class="active">Home</a>
+
+  <a href="studentproject.html">Student Project</a>
+  <a href="enquire.html">Enquire</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+<div class="col-10">
+  <table>
+    <tr>
+      <td>
+        <img src="image/commercial/commercial.png" width="100%">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="image/commercial/commercial2.png" width="100%">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="image/commercial/commercial4.png" width="100%">
+      </td>
+    </tr>
+    
+  </table>
+   </div>
+
+
+</div>
+<div class="col-10r">
+  <table>
+    <tr>
+      <td>
+        <img src="image/commercial/commercial4.png" width="100%">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="image/commercial/commercial5.png" width="100%">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="image/commercial/commercial6.png" width="100%">
+      </td>
+    </tr>
+    
+  </table>
+</div>
+<div class="slideshow" align="center">
+
+<div class="mySlides fade">
+  <img src="image/slide1.jpg" style="width:60%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/slide2.jpg" style="width:60%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/slide3.jpg" style="width:60%">
+</div>
+
+</div>
+<br>
+
+<div class=" body">
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 secondskk
+}
+</script>
+
+ <hr>
+
+
+
+
+   <div style="padding-left:7%" class="select">
+<a href="interoir.html"><img src="image/index5.jpg" width="22%"></a>&nbsp;
+<a href="graphic.html"><img src="image/index6.jpg" width="22%"></a>&nbsp;
+<a href="solidwork.html"><img src="image/index7.jpg" width="22%"></a>&nbsp;
+<a href="3dmodelring.html"><img src="image/index8.jpg" width="22%"></a>
+  </div>
+ 
+  <hr>
+  <br>
+  <video controls style="padding-left: 3.5% ;padding-right: 1%">
+  <source src="image/video/video1.mp4" type="video/mp4">
+    </video>
+<br>
+<br>
+    <hr>
+  <br> 
+    <div class="weare" align="center">
+ <img src="image/weare.jpg" width="100%">
+
+  </div>
+  <br>
+   
+ <footer style="background-color: black">
+<div class="footer">
+  <div><h3>MEDIA ZON</h3></div>
+<div>Contect: +65 96635996 / +6 0127373019 / 07 5560255  </div>
+<br>
+<div> Adress: 133B, Jalan Nb2 2/2, Taman Nusa Bestari 2, 81300 Skudai, Johor</div>
+<a href="#" style="float: right"> </a>
+</div>
+
+<hr style="background-color: grey; height: 0.5px">
+<div class="copy">   &copy; All rights reserved by Media Zon</div>
+ </footer>
+
+</body>
+</html>

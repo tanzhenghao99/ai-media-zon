@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet"  href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1685+Centennial+Way+Corona+California+Riverside+County+92882&aq=&ie=UTF8&hq=&hnear=1685+Centennial+Way,+Corona,+Riverside,+California+92882">
+	<style>
+
+	body
+	{
+	background-image: url("image/background.jpg");
+		padding: 0 15% 0 15%;
+	}
+
+
+.header
+{background-color: black;
+
+font-size: 18px;
+width: 100%;}
+
+.header img
+{margin-right:5%}
+.header a
+{
+text-decoration: none;
+color: white;
+padding-left: 8%;
+margin-right: 5%}
+    
+.header a:hover 
+  {font-size: 19px;
+  color: blue }
+  .logo img
+  {width: 20%}
+
+  .header button
+  {color: red}
+  .slideshow
+   {margin: 2% 18% 0% 0%; 
+}
+.col-10
+{width: 20% ;
+float: left; 
+margin: 1% 10px 10px 10px}
+.col-10r
+{width: 20% ;
+float: right;
+margin:  1%}
+
+			@media screen and (max-width: 1500px) {
+  .header a
+  	{font-size: 12px;padding-left:1%}
+  body
+  {padding: 0 0 0 0}
+  span
+  {font-size: 18px}
+  .header a
+{
+text-decoration: none;
+color: white;
+padding-left: 6%}
+}
+
+					@media screen and (max-width: 800px) {
+  .header a
+  	{font-size: 8px;padding-left:1%}
+  body
+  {padding: 0 0 0 0}
+  span
+  {font-size: 18px}
+.header a:hover 
+  {font-size: 10px;
+  color: blue；
+color: white;
+padding-left: 2%}
+.slideshow
+   {margin: 2% 20% 0% 0%; 
+}
+.logo img
+{width: 20%;
+padding-left: 8%}
+}
+
+
+						
+
+
+
+	</style>
+</head>
+<body>
+
+
+<div class="background-image">
+<div class="header" style="text-align: center;">
+	 <br>
+  <a href="#default" class="logo"><img src="image/logo.png"></a>
+  <br>
+  <br>
+
+
+  <div class="header">
+    <a class="active" href="#home"><span style="font-size: 18px ;color: blue"><i class="fas fa-home"></i> HOME<span></a>
+    <a href="#contact"><i class="fas fa-warehouse">&nbsp; </i>  COUSE</a>
+    <a href="#about"><i class="fas fa-images"> &nbsp;</i>  STUDENT &nbsp;PROJECT</a>
+    <a href="#about"><i class="fab fa-wpforms"> &nbsp;</i> ENQUIRE</a>
+     
+    <br>
+    <br>
+  </div>
+</div>
+<div class="col-10">
+  <table>
+    <tr>
+      <td>
+        <img src="image/index1.jpg" width="100%">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="image/index2.jpg" width="100%">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="image/index3.jpg" width="100%">
+      </td>
+    </tr>
+    
+  </table>
+   </div>
+
+
+</div>
+<div class="col-10r">
+  <table>
+    <tr>
+      <td>
+        <img src="image/index1.jpg" width="100%">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="image/index2.jpg" width="100%">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="image/index3.jpg" width="100%">
+      </td>
+    </tr>
+    
+  </table>
+</div>
+<div class="col-80">
+  
+<div class="slideshow" align="center">
+
+<div class="mySlides fade">
+  <img src="image/slide1.jpg" style="width:65%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/slide2.jpg" style="width:65%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/slide3.jpg" style="width:65%">
+</div>
+
+</div>
+<br>
+
+<div class=" body">
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 secondskk
+}
+</script>
+
+
+
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Media Zon| Graphic art design center</title>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet"  href="https://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=1685+Centennial+Way+Corona+California+Riverside+County+92882&aq=&ie=UTF8&hq=&hnear=1685+Centennial+Way,+Corona,+Riverside,+California+92882">
+  <style>
+
+    .topbar
+    {background-color: black ;
+     overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;}
+ 
+    
+
+ .topbar   ul 
+    {list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+    padding-left: 100px;
+    border-radius: 10px
+  }
+
+ .topbar li 
+    {float: left;}
+
+.topbar li a 
+    {display: block;
+    color: white;
+   text-align: center;
+    padding: 2px 35px;
+    text-decoration: none;
+    text-align: center;}
+    .topbar li img
+    {padding: 20px 0 0 0px}
+
+.topbar li a:hover 
+  {background-color:#3d3d3d; 
+    font-size:135% }
+
+#map {
+        height: 200px;
+        width: 20%}
+.text
+{color: black; 
+padding: 0 20% 0 23% ;width: 50% ;padding-left: 27%}
+
+.slideshow
+   {padding: 1% 20% 0% 0%; 
+}
+
+
+body  {
+    background-image: url("image/background.jpg");
+    
+}
+
+.last
+{color: white;
+background-color: black ;
+text-align: center;}
+.map a
+{color: white}
+.map a:hover
+{text-decoration: none ;color: yellow}
+
+.col-10
+{width: 20% ;
+float: left; 
+margin: 1% 10px 10px 10px}
+.col-10r
+{width: 20% ;
+float: right;
+margin:  1% 0px}
+.facebook a 
+{ color: white}
+.facebook a:hover
+{text-decoration: none ; color: yellow}
+
+
+  </style>
+
+</head>
+
+
+
+<body style="margin:0 ">
+
+  <div class="topbar" >
+
+
+<ul>   
+            <li><img src="image/logo.png" width="48%"></li>
+          <li><a class="active" href="#"><H4  style="color: yellow;font-size:130%"><i class="fas fa-home"></i> HOME </H4></a></li>
+
+           <li><a href="#contact"><H4><i class="fas fa-warehouse"></i> COUSE</H4></a></li>
+ 
+           <li><a class="active" href="#"><H4><i class="fas fa-images"></i> STUDENT &nbsp;PROJECT</H4></a></li>
+ 
+            <li><a href="#about"><h4><i class="fab fa-wpforms"></i> ENQUIRE</h4></a></li>
+            </ul>
+
+  </div>
+<br><br><br><br><br><br>
+
+<div class="col-10">
+  <table>
+    <tr>
+      <td>
+        <img src="image/index1.jpg" width="100%">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="image/index2.jpg" width="100%">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="image/index3.jpg" width="100%">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="image/index4.jpg" width="100%">
+      </td>
+    </tr>
+  </table>
+   </div>
+
+
+</div>
+<div class="col-10r">
+  <table>
+    <tr>
+      <td>
+        <img src="image/index1.jpg" width="100%">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="image/index2.jpg" width="100%">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="image/index3.jpg" width="100%">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="image/index4.jpg" width="100%">
+      </td>
+    </tr>
+  </table>
+</div>
+<div class="col-80">
+  
+
+<div class="slideshow" align="center">
+
+<div class="mySlides fade">
+  <img src="image/slide1.jpg" style="width:60%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/slide2.jpg" style="width:60%">
+</div>
+
+<div class="mySlides fade">
+  <img src="image/slide3.jpg" style="width:60%">
+</div>
+
+</div>
+<br>
+
+<div class=" body">
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 secondskk
+}
+</script>
+
+
+
+
+<div class="text" >
+  <h2>WE ARE</h2>
+   <h3> &bull; Providing working experienced professional lecturers, instructors and trainers from Singapore and Malaysia.<h3>
+    <h3> &bull; Providing small group training and giving a good environment for the best computer education and design training skills.<h3>
+      <h3> &bull; Excellent portfolio for their further study at local or oversea.<h3>
+        <h3> &bull; Emphasizes on computer media and creative designing preparing our students for a good career opportunity.<h3>
+          <h3> &bull; Aim to inspire its learning to become enterprising creative personals with the creative software.<h3>
+</div>
+
+</div>
+<br>
+<br>
+
+</div>
+<footer>
+<div class="last"><div style="font-size: 23px"> Media Zon skills traning center
+
+<div style="font-size: 13px">Media  Zon is managed by a pool of enthusiast, a wealth of working experienced professional and instructors in the Computer Software System & Design Consultant industries since 1994 in the International and Singapore Markets. It is our core vision to impart our invaluable experience and expertise to our valuable students. Having strong ties with our industry supporters for many years, we are confident to keep our students close to industry practices to achieve professional excellence.<div>
+  <BR>
+  <BR>
+  <div style="font-size: 15px"> TEL : +65 96635996 / 07 5560255 / +6 0127373019</div>
+  <Br>
+  <div style="font-size: 18">Adress: 133B Jalan NB2 2/2 , Taman Nusa Bestari 2, 81300 Skudai Johor</div>
+<div class="map"><a href="https://www.google.com/maps/place/Media+Zon+Komputer+Training+Center/@1.4944417,103.6534989,17z/data=!3m1!4b1!4m5!3m4!1s0x31da7341a7bdd221:0x56b6015a957af8fd!8m2!3d1.4944417!4d103.655693"  >GO NOW</a></div>
+
+<div class="facebook"><a href="https://www.facebook.com/MediaZoneTraining/" style="font-size: 25px">Facebook page</a></div>
+</div>
+   
+
+</footer>
+
+
+</body>
+</html>
